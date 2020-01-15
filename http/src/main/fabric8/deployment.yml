@@ -1,0 +1,14 @@
+spec:
+  template:
+    spec:
+      containers:
+      - env:
+        - name: JAVA_OPTS
+          value: "-Dswarm.project.stage.file=file:///app/config/project-defaults.yml -XX:MaxMetaspaceSize=2g -Dfoo=bar"
+        volumeMounts:
+        - name: config
+          mountPath: /app/config
+      volumes:
+      - name: config
+        configMap:
+          name: app-config

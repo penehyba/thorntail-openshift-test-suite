@@ -6,6 +6,8 @@
         <property name="namespace.use.current">true</property>
         <!-- when switching namespace.use.current to false, switch enableImageStreamDetection to true -->
         <property name="enableImageStreamDetection">false</property>
-        <property name="env.init.enabled">true</property>
+        <property name="env.init.enabled">false</property>
+        <property name="namespace.cleanup.enabled">false</property>
+<!--        <property name="javaVmArguments">-XX:MaxMetaspaceSize=2g -Dfoo=bar</property>-->
     </extension>
 </arquillian>
