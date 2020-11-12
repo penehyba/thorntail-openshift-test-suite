@@ -45,7 +45,7 @@
         <version.org.apache.maven.plugins.maven-resources-plugin>3.1.0</version.org.apache.maven.plugins.maven-resources-plugin>
         <version.org.apache.maven.plugins.maven-surefire-plugin>2.22.2</version.org.apache.maven.plugins.maven-surefire-plugin>
         <version.org.apache.maven.plugins.maven-war-plugin>3.3.0</version.org.apache.maven.plugins.maven-war-plugin>
-        <version.org.arquillian.cube>1.18.X</version.org.arquillian.cube>
+        <version.org.arquillian.cube>1.18.X412</version.org.arquillian.cube>
         <version.org.assertj.assertj-core>3.16.1</version.org.assertj.assertj-core>
         <version.org.awaitility>4.0.3</version.org.awaitility>
         <version.org.codehaus.mojo.keytool-maven-plugin>1.5</version.org.codehaus.mojo.keytool-maven-plugin>

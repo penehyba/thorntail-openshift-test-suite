@@ -8,9 +8,9 @@ import java.net.URL;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import io.fabric8.kubernetes.api.model.v4_10.Pod;
-import io.fabric8.kubernetes.clnt.v4_10.internal.readiness.Readiness;
-import io.fabric8.openshift.clnt.v4_10.OpenShiftClient;
+import io.fabric8.kubernetes.api.model.Pod;
+import io.fabric8.kubernetes.client.internal.readiness.Readiness;
+import io.fabric8.openshift.client.OpenShiftClient;
 import org.arquillian.cube.openshift.impl.client.ResourceUtil;
 
 import static org.awaitility.Awaitility.await;
