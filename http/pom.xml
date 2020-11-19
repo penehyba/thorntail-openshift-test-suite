@@ -35,14 +35,26 @@
             <artifactId>junit</artifactId>
             <scope>test</scope>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.arquillian.cube</groupId>-->
+<!--            <artifactId>arquillian-cube-openshift</artifactId>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.jboss.arquillian.junit</groupId>-->
+<!--            <artifactId>arquillian-junit-standalone</artifactId>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
         <dependency>
-            <groupId>org.arquillian.cube</groupId>
-            <artifactId>arquillian-cube-openshift</artifactId>
-            <scope>test</scope>
+            <groupId>io.dekorate</groupId>
+            <artifactId>openshift-thorntail-starter</artifactId>
+            <version>2.0.0-alpha-1</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.jboss.arquillian.junit</groupId>
-            <artifactId>arquillian-junit-standalone</artifactId>
+            <groupId>io.dekorate</groupId>
+            <artifactId>openshift-junit-starter</artifactId>
+            <version>2.0.0-alpha-1</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
