@@ -51,8 +51,8 @@
         <version.org.codehaus.mojo.keytool-maven-plugin>1.5</version.org.codehaus.mojo.keytool-maven-plugin>
         <version.org.postgresql>42.2.14</version.org.postgresql>
         <version.org.jboss.arquillian>1.6.0.Final</version.org.jboss.arquillian>
-        <version.org.jboss.resteasy>3.11.2.Final</version.org.jboss.resteasy>
-        <version.org.wildfly.core.wildfly-controller-client>10.0.3.Final</version.org.wildfly.core.wildfly-controller-client>
+        <version.org.jboss.resteasy>3.13.2.Final</version.org.jboss.resteasy>
+        <version.org.wildfly.core.wildfly-controller-client>13.0.3.Final</version.org.wildfly.core.wildfly-controller-client>
 
         <!--
           - when updating version.io.thorntail, check and possibly update these properties as well:
